@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="img_prc" type="final" name="publish_info" required="true" />
+</launch>
