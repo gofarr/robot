@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/odroid/wgw/final.cpp
+opencv2/opencv.hpp
+-
+iostream
+-
+opencvcode.h
+/home/odroid/wgw/opencvcode.h
+zbar.h
+-
+time.h
+-
+sys/types.h
+-
+stdlib.h
+-
+sqlite3.h
+/home/odroid/wgw/sqlite3.h
+stdio.h
+-
+string.h
+-
+
+/home/odroid/wgw/opencvcode.h
+opencv2/opencv.hpp
+-
+
